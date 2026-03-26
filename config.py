@@ -24,7 +24,7 @@ EXTRACTION_SCHEMA = {
         'title': {
             'selector': 'h3 a',
             'extract': 'text', # 改为提取文字，更稳
-            'default': '未知型号'
+            'default': '型号未知'
         },
         'price': {
             'selector': '.price-type',
